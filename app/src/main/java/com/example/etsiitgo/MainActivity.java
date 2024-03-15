@@ -51,6 +51,7 @@ import com.example.etsiitgo.ui.InteractableFragment;
 import com.example.etsiitgo.ui.LoginScreenFragment;
 import com.example.etsiitgo.ui.MapFragment;
 import com.example.etsiitgo.ui.NotasFragment;
+import com.example.etsiitgo.ui.PanicFragment;
 import com.example.etsiitgo.ui.QrFragment;
 import com.example.etsiitgo.ui.SettingsFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private NavigationView navigationView;
     private Toolbar toolbar;
 
-    public enum Fragmentos { HOME, MAP, HORARIO, COMEDOR, NOTAS, LOGIN, SETTINGS, QR };
+    public enum Fragmentos { HOME, MAP, HORARIO, COMEDOR, NOTAS, LOGIN, SETTINGS, QR,PANIC_BUTTON };
 
     private HomeFragment homeFragment;
     private MapFragment mapFragment;
@@ -84,6 +85,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private SettingsFragment settingsFragment;
     private FragmentContainerView fragmentContainerView;
 
+    private PanicFragment panicFragment;
     // Test
     private BluetoothScanner scanner;
     private BluetoothService bluetoothService;
@@ -521,7 +523,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onCorrectLogin() {
         // Cambiamos el nombre del menú lateral
         TextView menuName = findViewById(R.id.menu_name);
-        menuName.setText("Alejandro Torres Rodríguez");
+        menuName.setText("Adriano García-Giralda MilenaE");
 
         //ImageView img = findViewById(R.id.nav_profile_picture);
         //img.setImageResource(R.drawable.login_icon2);
