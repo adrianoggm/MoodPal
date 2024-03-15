@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFF"
+	tools:context=".ui.HorarioFragment">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginStart="40dp"
+		android:layout_marginTop="40dp"
+		android:layout_marginEnd="40dp"
+		android:layout_marginBottom="40dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#0052af"
+
+			>
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+
+				android:layout_weight="1"
+
+				android:gravity="center_vertical">
+
+				<TextView
+					android:id="@+id/day"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+
+					android:layout_marginHorizontal="1dp"
+					android:layout_marginBottom="1dp"
+					android:layout_weight="1"
+					android:background="#0052af"
+					android:gravity="center"
+					android:text="Lunes"
+					android:textColor="@color/white"
+					android:textSize="20dp"
+					android:textStyle="bold" />
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+
+				android:layout_weight="1"
+
+				android:gravity="center_vertical">
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+
+							android:layout_weight="2"
+							android:background="@color/black"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text=" 8:30/9:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text="9:30/10:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/h1"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:textSize="16dp" />
+
+							<TextView
+								android:id="@+id/h2"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:text="SS\n3.8"
+								android:textSize="16dp" />
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+
+				android:layout_weight="1"
+
+				android:gravity="center_vertical">
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+
+							android:layout_weight="2"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text="10:30/11:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text="11:30/12:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/h3"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:text="SS\n3.8"
+								android:textSize="16dp" />
+
+							<TextView
+								android:id="@+id/h4"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:textSize="16dp" />
+						</LinearLayout>
+
+					</LinearLayout>
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+
+				android:layout_weight="1"
+
+				android:gravity="center_vertical">
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="horizontal">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+
+							android:layout_weight="2"
+							android:orientation="vertical">
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text=" 12:30/13:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+							<TextView
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+
+								android:background="#0076fa"
+								android:gravity="center"
+								android:text="13:30/14:30"
+								android:textColor="@color/white"
+
+
+								android:textSize="16dp"
+
+								android:textStyle="bold" />
+
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:orientation="vertical">
+
+							<TextView
+								android:id="@+id/h5"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:textSize="16dp" />
+
+							<TextView
+								android:id="@+id/h6"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:layout_marginHorizontal="1dp"
+
+								android:layout_marginBottom="1dp"
+								android:layout_weight="1"
+								android:background="@color/white"
+								android:gravity="center"
+								android:textSize="16dp" />
+						</LinearLayout>
+
+					</LinearLayout>
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+			</TableRow>
+
+
+		</TableLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

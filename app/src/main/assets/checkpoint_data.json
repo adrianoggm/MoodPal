@@ -1,0 +1,263 @@
+{
+  "data": {
+    "parque_constitucion": {
+      "latitude": 37.1185,
+      "longitude": -3.6036646,
+      "accuracy": 25.118,
+      "altitude": 782.800048828125,
+      "verticalAccuracyMeters": 1.0
+    },
+    "parking_piscina": {
+      "latitude": 37.119195,
+      "longitude": -3.6038944,
+      "accuracy": 22.421,
+      "altitude": 780.800048828125,
+      "verticalAccuracyMeters": 2.1526272
+    },
+    "parque_infantil": {
+      "latitude": 37.1167435,
+      "longitude": -3.6019591,
+      "accuracy": 17.485,
+      "altitude": 790.6000366210938,
+      "verticalAccuracyMeters": 1.6203825
+    },
+    "Entrada": {
+      "latitude": 37.1967922,
+      "longitude": -3.6242947,
+      "accuracy": 27.783,
+      "altitude": 720.6000366210938,
+      "verticalAccuracyMeters": 1.538451
+    },
+    "Comedor": {
+      "latitude": 37.1969888,
+      "longitude": -3.624473,
+      "accuracy": 13.474,
+      "altitude": 713.7000122070312,
+      "verticalAccuracyMeters": 1.0
+    },
+    "AulaPolivalente": {
+      "latitude": 37.1967842,
+      "longitude": -3.6244339,
+      "accuracy": 15.51,
+      "altitude": 714.300048828125,
+      "verticalAccuracyMeters": 3.7435684
+    },
+    "PlazaExterior": {
+      "latitude": 37.1970598,
+      "longitude": -3.6234954,
+      "accuracy": 14.611,
+      "altitude": 734.9000244140625,
+      "verticalAccuracyMeters": 6.308864
+    },
+    "Modulos": {
+      "latitude": 37.1968972,
+      "longitude": -3.623641,
+      "accuracy": 25.16,
+      "altitude": 718.9000244140625,
+      "verticalAccuracyMeters": 5.158664
+    },
+    "ModuloA": {
+      "latitude": 37.1971213,
+      "longitude": -3.6237858,
+      "accuracy": 24.238,
+      "altitude": 716.800048828125,
+      "verticalAccuracyMeters": 4.773947
+    },
+    "ModuloB": {
+      "latitude": 37.1968522,
+      "longitude": -3.6240548,
+      "accuracy": 34.396,
+      "altitude": 718.2000122070312,
+      "verticalAccuracyMeters": 2.9415815
+    },
+    "Parking": {
+      "latitude": 37.1972459,
+      "longitude": -3.6233268,
+      "accuracy": 22.516,
+      "altitude": 717.800048828125,
+      "verticalAccuracyMeters": 5.2939634
+    },
+    "EdificioB": {
+      "latitude": 37.1968255,
+      "longitude": -3.6236216,
+      "accuracy": 47.074,
+      "altitude": 719.800048828125,
+      "verticalAccuracyMeters": 9.299186
+    },
+    "Aula0.1": {
+      "latitude": 37.1974601,
+      "longitude": -3.6247214,
+      "accuracy": 12.642,
+      "altitude": 717.0,
+      "verticalAccuracyMeters": 2.8258786
+    },
+    "Aula1.8": {
+      "latitude": 37.1973016,
+      "longitude": -3.6239086,
+      "accuracy": 24.978,
+      "altitude": 720.800048828125,
+      "verticalAccuracyMeters": 2.3625972
+    },
+    "EscaleraB-2": {
+      "latitude": 37.1973506,
+      "longitude": -3.6240089,
+      "accuracy": 37.59,
+      "altitude": 725.300048828125,
+      "verticalAccuracyMeters": 3.2439265
+    },
+    "Aula2.5": {
+      "latitude": 37.1973097,
+      "longitude": -3.6239776,
+      "accuracy": 13.783,
+      "altitude": 725.300048828125,
+      "verticalAccuracyMeters": 2.658953
+    },
+    "Aula2.4": {
+      "latitude": 37.1974093,
+      "longitude": -3.6244147,
+      "accuracy": 24.497,
+      "altitude": 725.0,
+      "verticalAccuracyMeters": 2.6142964
+    },
+    "EscaleraB-3": {
+      "latitude": 37.1972918,
+      "longitude": -3.6239963,
+      "accuracy": 14.438,
+      "altitude": 728.2000122070312,
+      "verticalAccuracyMeters": 1.3017732
+    },
+    "EscaleraB-4": {
+      "latitude": 37.1973088,
+      "longitude": -3.6239894,
+      "accuracy": 28.129,
+      "altitude": 728.2000122070312,
+      "verticalAccuracyMeters": 4.443518
+    },
+    "Aula3.5": {
+      "latitude": 37.1973691,
+      "longitude": -3.6243841,
+      "accuracy": 39.447,
+      "altitude": 728.0,
+      "verticalAccuracyMeters": 5.4427547
+    },
+    "EdificioA": {
+      "latitude": 37.1969563,
+      "longitude": -3.6236629,
+      "accuracy": 22.814,
+      "altitude": 734.800048828125,
+      "verticalAccuracyMeters": 6.373227
+    },
+    "Totem": {
+      "latitude": 37.1970709,
+      "longitude": -3.6245539,
+      "accuracy": 16.146,
+      "altitude": 718.0,
+      "verticalAccuracyMeters": 1.286399
+    },
+    "Secretaria": {
+      "latitude": 37.1970801,
+      "longitude": -3.6245493,
+      "accuracy": 15.79,
+      "altitude": 718.0,
+      "verticalAccuracyMeters": 2.7825992
+    },
+    "EscaleraA-1": {
+      "latitude": 37.1970834,
+      "longitude": -3.6245426,
+      "accuracy": 13.234,
+      "altitude": 718.0,
+      "verticalAccuracyMeters": 2.7828436
+    },
+    "Biblioteca": {
+      "latitude": 37.1969935,
+      "longitude": -3.6241324,
+      "accuracy": 58.011,
+      "altitude": 718.0,
+      "verticalAccuracyMeters": 23.594984
+    },
+    "EscaleraA-2": {
+      "latitude": 37.1970656,
+      "longitude": -3.6241696,
+      "accuracy": 57.19,
+      "altitude": 725.2000122070312,
+      "verticalAccuracyMeters": 25.630772
+    },
+    "Despacho-2.29": {
+      "latitude": 37.1967976,
+      "longitude": -3.6243824,
+      "accuracy": 16.83,
+      "altitude": 725.1000366210938,
+      "verticalAccuracyMeters": 2.0539784
+    },
+    "EscaleraA-3": {
+      "latitude": 37.1969924,
+      "longitude": -3.6244003,
+      "accuracy": 43.906,
+      "altitude": 728.5,
+      "verticalAccuracyMeters": 11.255213
+    },
+    "Despacho-3.21": {
+      "latitude": 37.1970965,
+      "longitude": -3.6245169,
+      "accuracy": 14.887,
+      "altitude": 728.4000244140625,
+      "verticalAccuracyMeters": 1.2696329
+    },
+    "EscaleraA-4": {
+      "latitude": 37.196992,
+      "longitude": -3.6244227,
+      "accuracy": 44.937,
+      "altitude": 731.9000244140625,
+      "verticalAccuracyMeters": 6.7486253
+    },
+    "SalaMultiusos": {
+      "latitude": 37.1969518,
+      "longitude": -3.6244751,
+      "accuracy": 43.687,
+      "altitude": 731.9000244140625,
+      "verticalAccuracyMeters": 5.1480527
+    },
+    "Despacho-4.5": {
+      "latitude": 37.1969892,
+      "longitude": -3.624465,
+      "accuracy": 17.394,
+      "altitude": 731.800048828125,
+      "verticalAccuracyMeters": 1.096792
+    },
+    "Cafeteria": {
+      "latitude": 37.1969849,
+      "longitude": -3.6246615,
+      "accuracy": 12.296,
+      "altitude": 713.9000244140625,
+      "verticalAccuracyMeters": 1.3699569
+    },
+    "EscaleraB-0": {
+      "latitude": 37.1973933,
+      "longitude": -3.6241471,
+      "accuracy": 20.974,
+      "altitude": 718.1000366210938,
+      "verticalAccuracyMeters": 2.1581516
+    },
+    "EscaleraB-1": {
+      "latitude": 37.1973386,
+      "longitude": -3.624047,
+      "accuracy": 14.864,
+      "altitude": 721.9000244140625,
+      "verticalAccuracyMeters": 2.0605145
+    },
+    "Despacho3.21": {
+      "latitude": 37.1971017,
+      "longitude": -3.624511,
+      "accuracy": 14.88,
+      "altitude": 728.4000244140625,
+      "verticalAccuracyMeters": 1.0289032
+    },
+    "Despacho4.5": {
+      "latitude": 37.1970265,
+      "longitude": -3.6244912,
+      "accuracy": 14.838,
+      "altitude": 731.800048828125,
+      "verticalAccuracyMeters": 1.0351284
+    }
+  }
+}

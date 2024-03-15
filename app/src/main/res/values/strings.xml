@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">EtsiitGO</string>
+    <string name="home">Inicio</string>
+    <string name="account">Cuenta</string>
+    <string name="system">Sistema</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="qr_code">Código QR</string>
+    <string name="exit_app">Cerrar aplicación</string>
+    <string name="settings">Ajustes</string>
+    <string name="not_logged_in">No se ha iniciado sesión</string>
+    <string name="navigation_drawer_open">Abrir el menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el menú de navegación</string>
+    <string name="comedor">Comedor</string>
+    <string name="horario">Horario</string>
+    <string name="notas">Notas</string>
+    <string name="mapa">Mapa</string>
+    <string name="titulo_notas">Certificado de notas</string>
+    <string name="indicacion_gesto_totem">Utiliza dos dedos y desliza hacia abajo para traer el contenido del tótem a tu dispositivo móvil</string>
+    <string name="nombre_notas">Alumno:</string>
+    <string name="dni_notas">DNI:</string>
+    <string name="curso_notas">Curso:</string>
+    <string name="mencion_notas">Mención: </string>
+    <string name="asignatura">Asignatura</string>
+    <string name="nota">Nota</string>
+    <string name="bluetooth_no_compatible">El dispositivo no soporta bluetooth</string>
+    <string name="perms_denied">Permisos rechazados. Algunas funciones no estarán disponibles</string>
+    <string name="bluetooth_apagado">Bluetooth apagado. Algunas funciones no estarán disponibles</string>
+    <string name="totem_no_conectado">No hay conexión con el totem</string>
+    <string name="totem_conectado">Conectado al totem</string>
+    <string name="totem_connecting">Intentando conexión con el totem…</string>
+    <string name="titulo_qr">Código QR de identificación personal</string>
+    <string name="titulo_comedor">Menú del comedor</string>
+    <string name="titulo_horario">Horario del alumno</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

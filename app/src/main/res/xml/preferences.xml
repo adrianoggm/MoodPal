@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="gusi_settings"
+        app:title="Gusi">
+
+        <SwitchPreferenceCompat
+            app:key="enable_gusi_voice"
+            app:title="Permitir a Gusi hablar"
+            app:defaultValue="true"/>
+
+        <ListPreference
+            app:key="gusi_language"
+            app:title="Idioma del asistente"
+            app:defaultValue="es-ES"
+            app:entries="@array/language_options"
+            app:entryValues="@array/language_values"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

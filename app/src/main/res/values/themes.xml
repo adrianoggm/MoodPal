@@ -1,0 +1,16 @@
+    <resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EtsiitGO" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_blue_dark</item>
+        <item name="android:statusBarColor">#00000000</item>
+
+    </style>
+
+    <style name="Theme.EtsiitGO" parent="Base.Theme.EtsiitGO" />
+
+    <style name="ShapeAppearanceOverlay.Nav" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+</resources>

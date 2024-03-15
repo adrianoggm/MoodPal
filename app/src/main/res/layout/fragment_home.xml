@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.HomeFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        tools:ignore="UselessParent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/account_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/login_icon"
+                    tools:ignore="ContentDescription"
+                    app:tint="@color/primary_blue_dark" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CUENTA"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_blue_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/map_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/map_icon"
+                    app:tint="@color/primary_blue_dark"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MAPA"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_blue_dark"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/comedor_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fastfood_icon"
+                    app:tint="@color/primary_blue_dark"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="COMEDOR"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_blue_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/notas_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/grade_icon"
+                    app:tint="@color/primary_blue_dark"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CALIFICACIONES"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_blue_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/horario_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/schedule_icon"
+                    app:tint="@color/primary_blue_dark"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HORARIO"
+                    android:textAlignment="center"
+                    android:textColor="@color/primary_blue_dark"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/settings_button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/settings_icon"
+                    app:tint="@color/primary_blue_dark"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AJUSTES"
+                    android:textColor="@color/primary_blue_dark"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutIcons"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:backgroundTint="@color/blue_very_light"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="210dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/marca_ugr_no_fondo"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+</LinearLayout>

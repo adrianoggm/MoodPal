@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/map_icon"
+            android:title="@string/mapa" />
+        <item
+            android:id="@+id/nav_horario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/schedule_icon"
+            android:title="@string/horario" />
+        <item
+            android:id="@+id/nav_notas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/grade_icon"
+            android:title="@string/notas" />
+        <item
+            android:id="@+id/nav_comedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/fastfood_icon"
+            android:title="@string/comedor" />
+    </group>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/account">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <group
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_qr"
+                    android:icon="@drawable/qr_code"
+                    android:title="@string/qr_code" />
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/menu_login_icon"
+                    android:title="@string/login" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/menu_logout_icon"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/system">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <group
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/settings_icon"
+                    android:title="@string/settings" />
+            </group>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/close_icon"
+                android:title="@string/exit_app" />
+        </menu>
+    </item>
+</menu>

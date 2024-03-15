@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color_light">#ffa500</color>
+    <color name="primary_color_dark">#b38b00</color>
+    <color name="secondary_color_light">#fff1bf</color>
+    <color name="secondary_color_dark">#ffe380</color>
+
+<!--    Color mas oscuro para resaltar -->
+<color name="primary_blue_dark">#004592</color>
+<!--    Color principal que se usa en la mayria de sitios -->
+    <color name="primary_blue_color">#0077fa</color>
+<!--    Este se usa para el boton de gusi -->
+    <color name="secondary_blue_color">#98c9ff</color>
+<!--    Este se usa para los items seleccionados del menu lateral -->
+    <color name="blue_very_light">#d3e8ff</color>
+</resources>

@@ -1,0 +1,123 @@
+{
+  "data":
+  {
+    "Parking" : {
+      "destination" : "Parking",
+      "nodes" : {
+        "Entrada" : {
+          "next_node" : "PlazaExterior",
+          "annotation" : "Entra por la puerta del edificio de aulas. A mano derecha, camina hasta el patio."
+        },
+        "PlazaExterior" : {
+          "next_node" : "Parking",
+          "annotation" : "Camina recto hasta llegar a tu destino. Si no ves los coches, estas ciego colega."
+        },
+        "Parking" : {
+          "next_node" : "",
+          "annotation" : "Has llegado a tu destino."
+        }
+      }
+    },
+    "Aula0.1" : {
+      "destination" : "Aula0.1",
+      "nodes" : {
+        "Totem" : {
+          "next_node" : "EdificioA",
+          "annotation" : "Sal por la puerta, a mano derecha, hacia el patio."
+        },
+        "Entrada" : {
+          "next_node" : "EdificioA",
+          "annotation" : "Entra por la puerta del edificio de aulas. Sigue recto hacia el edifico de aulas, pasada la plaza exterior."
+        },
+        "Cafeteria" : {
+          "next_node" : "EdificioA",
+          "annotation" : "Sube por las escaleras interiores en dirección al recibidor."
+        },
+        "EdificioA" : {
+          "next_node" : "EdificioB",
+          "annotation" : "Camina hacia el edificio de aulas."
+        },
+        "EdificioB" : {
+          "next_node" : "Aula0.1",
+          "annotation" : "Entra en el edificio B. Gira a la izquierda y camina hasta el fondo del pasillo."
+        },
+        "Aula0.1" : {
+          "next_node" : "",
+          "annotation" : "Has llegado a tu destino."
+        }
+      }
+    },
+    "Secretaria" : {
+      "destination" : "Secretaria",
+      "nodes" : {
+        "Entrada" : {
+          "next_node" : "Totem",
+          "annotation" : "Entra por la puerta del edificio principal subiendo las escaleras."
+        },
+        "Totem" : {
+          "next_node" : "Secretaria",
+          "annotation" : "Desde el totem, a mano izquierda, camina hasta el recibidor."
+        },
+        "Secretaria" : {
+          "next_node" : "",
+          "annotation" : "Has llegado a tu destino."
+        }
+      }
+    },
+    "Delegacion Estudiantes" : {
+      "destination" : "EscaleraB-4",
+      "nodes" : {
+        "Totem" : {
+          "next_node" : "EdificioB",
+          "annotation" : "A mano izquierda, sal por la puerta y gira a la izquierda."
+        },
+        "Entrada" : {
+          "next_node" : "EdificioB",
+          "annotation" : "Entra por la puerta del edificio de aulas. Sigue recto hacia el edifico de aulas, pasada la plaza exterior."
+        },
+        "EdificioB" : {
+          "next_node" : "EscaleraB-0",
+          "annotation" : "Entra en el edificio y gira a la derecha para llegar a las escaleras."
+        },
+        "EscaleraB-0" : {
+          "next_node" : "EscaleraB-4",
+          "annotation" : "Sube hasta la cuarta planta."
+        },
+        "EscaleraB-4" : {
+          "next_node" : "",
+          "annotation" : "Has llegado a tu destino."
+        }
+      }
+    },
+    "Aula2.5" : {
+      "destination" : "Aula2.5",
+      "nodes" : {
+        "Totem" : {
+          "next_node" : "EdificioB",
+          "annotation" : "A mano izquierda, sal por la puerta y gira a la izquierda."
+        },
+        "Entrada" : {
+          "next_node" : "EdificioB",
+          "annotation" : "Entra por la puerta del edificio de aulas. Sigue recto hacia el edifico de aulas, pasada la plaza exterior."
+        },
+        "EdificioB" : {
+          "next_node" : "EscaleraB-0",
+          "annotation" : "Entra en el edificio y gira a la derecha para llegar a las escaleras."
+        },
+        "EscaleraB-0" : {
+          "next_node" : "EscaleraB-2",
+          "annotation" : "Sube hasta la segunda planta."
+        },
+        "EscaleraB-2" : {
+          "next_node" : "Aula2.5",
+          "annotation" : "Desde las escaleras, camina a la derecha hasta llegar a tu destino."
+        },
+        "Aula2.5" : {
+          "next_node" : "",
+          "annotation" : "Has llegado a tu destino."
+        }
+      }
+    }
+
+  }
+}
