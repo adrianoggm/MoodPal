@@ -26,10 +26,10 @@ public class HomeFragment extends Fragment  {
 
         if (mainActivity != null) {
 
-            view.findViewById(R.id.account_button).setOnClickListener(new View.OnClickListener() {
+            view.findViewById(R.id.panic_button).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.LOGIN);
+                    mainActivity.navigateToFragment(MainActivity.Fragmentos.PANIC_BUTTON);
                 }
             });
             view.findViewById(R.id.map_button).setOnClickListener(new View.OnClickListener() {
@@ -53,57 +53,12 @@ public class HomeFragment extends Fragment  {
                 }
             });
 
-            view.findViewById(R.id.notas_button).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.NOTAS);
-                }
-            });
 
-            view.findViewById(R.id.settings_button).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.SETTINGS);
-                }
-            });
         }
 
         return view;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-
-        if ( !userLoged ) {
-
-            View view = requireView();
-            ImageButton accountButton = view.findViewById(R.id.account_button);
-            accountButton.setImageResource(R.drawable.login_icon);
-            view.findViewById(R.id.account_button).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    ((MainActivity)requireActivity()).navigateToFragment(MainActivity.Fragmentos.LOGIN);
-                }
-            });
-
-        }
-        else { // user loged in
-
-            View view = requireView();
-            ImageButton accountButton = view.findViewById(R.id.account_button);
-            accountButton.setImageResource(R.drawable.qr_code);
-
-            view.findViewById(R.id.account_button).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    ((MainActivity)requireActivity()).navigateToFragment(MainActivity.Fragmentos.QR);
-                }
-            });
-
-        }
-
-    }
 
     public boolean isUserLoged() {
         return userLoged;

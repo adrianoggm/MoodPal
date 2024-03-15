@@ -4,6 +4,8 @@
 
 package com.example.etsiitgo;
 
+import static com.example.etsiitgo.R.id.nav_horario;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
@@ -117,6 +119,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         loginScreenFragment = new LoginScreenFragment();
         qrFragment = new QrFragment();
         settingsFragment = new SettingsFragment();
+        panicFragment=new PanicFragment();
 
         horarioFragment.setBluetoothService(bluetoothService);
         notasFragment.setBluetoothService(bluetoothService);
@@ -126,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         interactableFragmentViews.add(horarioFragment);
         interactableFragmentViews.add(notasFragment);
         interactableFragmentViews.add(comedorFragment);
+        interactableFragmentViews.add(panicFragment);
 
         // Hooks (asignar a cada variable su puntero)
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -271,10 +275,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .replace(R.id.main_fragment_viewer, homeFragment)
                     .commit();
         }
-        else if (itemId == R.id.nav_mapa) {
+        else if (itemId == R.id.panic_button) {
             abrirMenuMapa();
         }
-        else if (itemId == R.id.nav_horario) {
+        else if (itemId == nav_horario) {
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.main_fragment_viewer, horarioFragment)
@@ -340,7 +344,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return;
             case HORARIO:
                 fragment = horarioFragment;
-                navigationView.setCheckedItem(R.id.nav_horario);
+                navigationView.setCheckedItem(nav_horario);
                 break;
             case COMEDOR:
                 fragment = comedorFragment;
@@ -362,6 +366,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = qrFragment;
                 navigationView.setCheckedItem(R.id.nav_qr);
                 break;
+            case PANIC_BUTTON:
+                fragment = panicFragment;
+                navigationView.setCheckedItem(R.id.nav_qr);
+                break;
+
         }
 
         if ( fragment == null ) return;
