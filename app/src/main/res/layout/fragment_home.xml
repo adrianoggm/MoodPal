@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/home_background"
+    android:background="@color/azulito"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.HomeFragment">
 
@@ -88,7 +88,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="10dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/azulito"
             app:cardCornerRadius="15dp"
             app:cardElevation="8dp">
 
@@ -98,6 +98,7 @@
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical">
+
 
                 <ImageButton
                     android:id="@+id/panic_button"

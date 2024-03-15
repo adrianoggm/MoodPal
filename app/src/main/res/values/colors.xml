@@ -15,4 +15,6 @@
     <color name="secondary_blue_color">#98c9ff</color>
 <!--    Este se usa para los items seleccionados del menu lateral -->
     <color name="blue_very_light">#d3e8ff</color>
+
+    <color name="azulito">#C6F8EB</color>
 </resources>
