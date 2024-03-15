@@ -1,2 +1,2 @@
-# ETSIITGo
-Práctica Android NPI
+# Conciusness
+Práctica Android para cátedra de Telefónica

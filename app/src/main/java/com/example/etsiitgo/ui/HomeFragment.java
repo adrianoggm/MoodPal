@@ -32,24 +32,24 @@ public class HomeFragment extends Fragment  {
                     mainActivity.navigateToFragment(MainActivity.Fragmentos.PANIC_BUTTON);
                 }
             });
-            view.findViewById(R.id.map_button).setOnClickListener(new View.OnClickListener() {
+            view.findViewById(R.id.boton_emociones).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.MAP);
+                    mainActivity.navigateToFragment(MainActivity.Fragmentos.EMOCIONES);
                 }
             });
 
-            view.findViewById(R.id.comedor_button).setOnClickListener(new View.OnClickListener() {
+            view.findViewById(R.id.botonexperto).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.COMEDOR);
+                    mainActivity.navigateToFragment(MainActivity.Fragmentos.EXPERTO);
                 }
             });
 
-            view.findViewById(R.id.horario_button).setOnClickListener(new View.OnClickListener() {
+            view.findViewById(R.id.boton_entender).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mainActivity.navigateToFragment(MainActivity.Fragmentos.HORARIO);
+                    mainActivity.navigateToFragment(MainActivity.Fragmentos.ENTENDER);
                 }
             });
 

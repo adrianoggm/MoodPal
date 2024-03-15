@@ -16,16 +16,6 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/horario_button"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:scaleType="fitCenter"
-            android:src="@drawable/map_icon"
-            app:tint="@color/primary_blue_dark"
-            tools:ignore="ContentDescription" />
-
         <Button
             android:id="@+id/boton_emociones"
             android:layout_width="match_parent"
@@ -48,16 +38,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/map_button"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:scaleType="fitCenter"
-                android:src="@drawable/map_icon"
-                app:tint="@color/primary_blue_dark"
-                tools:ignore="ContentDescription" />
-
             <Button
                 android:id="@+id/botonexperto"
                 android:layout_width="150dp"
@@ -73,16 +53,6 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
-
-            <ImageButton
-                android:id="@+id/comedor_button"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:scaleType="fitCenter"
-                android:src="@drawable/map_icon"
-                app:tint="@color/primary_blue_dark"
-                tools:ignore="ContentDescription" />
 
             <Button
                 android:id="@+id/boton_entender"

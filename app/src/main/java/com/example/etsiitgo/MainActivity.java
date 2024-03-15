@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private NavigationView navigationView;
     private Toolbar toolbar;
 
-    public enum Fragmentos { HOME, MAP, HORARIO, COMEDOR, NOTAS, LOGIN, SETTINGS, QR,PANIC_BUTTON };
+    public enum Fragmentos { HOME, MAP, HORARIO, COMEDOR, NOTAS, LOGIN, SETTINGS, QR,PANIC_BUTTON,ENTENDER,EXPERTO,EMOCIONES};
 
     private HomeFragment homeFragment;
     private MapFragment mapFragment;
@@ -120,6 +120,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         qrFragment = new QrFragment();
         settingsFragment = new SettingsFragment();
         panicFragment=new PanicFragment();
+        //entenderFragment= new EntenderFragment();
+        //expertoFragment= new ExpertoFragment();
+        //emocionesFragment= new EmocionesFragment();
 
         horarioFragment.setBluetoothService(bluetoothService);
         notasFragment.setBluetoothService(bluetoothService);
@@ -130,6 +133,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         interactableFragmentViews.add(notasFragment);
         interactableFragmentViews.add(comedorFragment);
         interactableFragmentViews.add(panicFragment);
+        //MODIFICAR AQUI TAMBIÉN
+
 
         // Hooks (asignar a cada variable su puntero)
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -275,7 +280,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .replace(R.id.main_fragment_viewer, homeFragment)
                     .commit();
         }
-        else if (itemId == R.id.panic_button) {
+        else if (itemId == R.id.panic_button) { // HAY QUE CAMBIARLO
             abrirMenuMapa();
         }
         else if (itemId == nav_horario) {
@@ -532,7 +537,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onCorrectLogin() {
         // Cambiamos el nombre del menú lateral
         TextView menuName = findViewById(R.id.menu_name);
-        menuName.setText("Adriano García-Giralda MilenaE");
+        menuName.setText("Adriano García-Giralda Milena");
 
         //ImageView img = findViewById(R.id.nav_profile_picture);
         //img.setImageResource(R.drawable.login_icon2);
