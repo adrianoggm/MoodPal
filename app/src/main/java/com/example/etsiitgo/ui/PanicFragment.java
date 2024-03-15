@@ -61,7 +61,7 @@ public class PanicFragment extends InteractableFragment {
     private int indice_consejo=0; //indice del dia de la semana debe estar en %5 siempre !!!
     private TextView textotitulopanico,textopanico,postre,day; //Textos del layout horario el Dia y sus franjas horarias
     private ImageView imagenespanicImageView;
-
+    private Button siguiente_paso;
 
 
     public static PanicFragment newInstance(String param1, String param2) {
@@ -81,18 +81,18 @@ public class PanicFragment extends InteractableFragment {
 
         textotitulopanico=view.findViewById(R.id.textotitulopanic);
         textopanico = view.findViewById(R.id.textopanic);
-
+        siguiente_paso=view.findViewById(R.id.botonpasarpanic);
 
         imagenespanicImageView =view.findViewById(R.id.imagenpanic);
 
 
 
-        actualizarInterfaz(this.indice_consejo);
+        actualizarInterfaz();
         return view;
     }
 
 
-    public void actualizarInterfaz(int indice_consejo){
+    public void actualizarInterfaz(){
         String []titulo = new String[2];
         String []texto= new String[2];
         String []imagenes= new String[2];
@@ -101,12 +101,20 @@ public class PanicFragment extends InteractableFragment {
         texto[0]="Todo va a salir bien";
         texto[1]="Solo un poco más ";
         imagenes[0]=String.valueOf(R.drawable.respira1);
-        imagenes[1] = String.valueOf(R.drawable.segundo1);
+        imagenes[1] = String.valueOf(R.drawable.respira1);
 
         textotitulopanico.setText(titulo[indice_consejo]);
         textopanico.setText(texto[indice_consejo]);
 
         imagenespanicImageView.setImageResource(Integer.parseInt(imagenes[indice_consejo]));
+        siguiente_paso.setOnClickListener(new View.OnClickListener(){
+        @Override public  void onClick(View v){
+            indice_consejo=(indice_consejo+1)%2;
+            textotitulopanico.setText(titulo[indice_consejo]);
+            textopanico.setText(texto[indice_consejo]);
+            imagenespanicImageView.setImageResource(Integer.parseInt(imagenes[indice_consejo]));
+        }
+        });
     }
 
     @Override

@@ -26,13 +26,11 @@
             app:tint="@color/primary_blue_dark"
             tools:ignore="ContentDescription" />
 
-        <TextView
+        <Button
+            android:id="@+id/boton_emociones"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MAPA"
-            android:textAlignment="center"
-            android:textColor="@color/primary_blue_dark"
-            tools:ignore="HardcodedText" />
+            android:text="¿Cómo te sientes hoy?" />
 
     </LinearLayout>
 
@@ -60,13 +58,11 @@
                 app:tint="@color/primary_blue_dark"
                 tools:ignore="ContentDescription" />
 
-            <TextView
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/botonexperto"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="MAPA"
-                android:textAlignment="center"
-                android:textColor="@color/primary_blue_dark"
-                tools:ignore="HardcodedText" />
+                android:text="Contacta a un experto" />
 
         </LinearLayout>
 
@@ -88,13 +84,11 @@
                 app:tint="@color/primary_blue_dark"
                 tools:ignore="ContentDescription" />
 
-            <TextView
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/boton_entender"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="MAPA"
-                android:textAlignment="center"
-                android:textColor="@color/primary_blue_dark"
-                tools:ignore="HardcodedText" />
+                android:text="Como entender mis emociones" />
 
         </LinearLayout>
     </LinearLayout>
@@ -141,14 +135,14 @@
                     android:layout_height="100dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/map_icon"
-                    app:tint="@color/primary_blue_dark"
+                    android:src="@drawable/km_record_circle"
+                    app:tint="@color/error_background_color"
                     tools:ignore="ContentDescription" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="MAPA"
+                    android:text="PANICO"
                     android:textAlignment="center"
                     android:textColor="@color/primary_blue_dark"
                     tools:ignore="HardcodedText" />

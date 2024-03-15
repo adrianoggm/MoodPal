@@ -62,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/primero4" />
+                    android:src="@drawable/respira1" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_weight="2"
-                        android:text="Button" />
+                        android:text="Siguiente paso" />
                 </LinearLayout>
 
             </LinearLayout>
