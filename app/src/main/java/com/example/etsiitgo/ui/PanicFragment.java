@@ -97,7 +97,7 @@ public class PanicFragment extends InteractableFragment {
         String []texto= new String[2];
         String []imagenes= new String[2];
         titulo[0]="Respira profundamente";
-        titulo[1]="Aqui no se que poner ";
+        titulo[1]="Aqui no se que poner";
         texto[0]="Todo va a salir bien";
         texto[1]="Solo un poco más ";
         imagenes[0]=String.valueOf(R.drawable.respira1);
