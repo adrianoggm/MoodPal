@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#E0F1F1">
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
@@ -27,6 +28,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#890F9E"
                     android:text="Miedo" />
 
                 <Button
@@ -34,6 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#FF84CB"
                     android:text="Amor" />
             </LinearLayout>
 
@@ -44,18 +47,21 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/boton_tristeza"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Tristeza" />
-
-                <Button
                     android:id="@+id/boton_sorpresa"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#FF924D"
                     android:text="Sorpresa" />
+
+                <Button
+                    android:id="@+id/boton_tristeza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#544CC1"
+                    android:text="Tristeza" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -69,6 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#BC2424"
                     android:text="Enojo" />
 
                 <Button
@@ -76,6 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#E6D328"
                     android:text="Felicidad" />
             </LinearLayout>
 
@@ -87,9 +95,10 @@
 
                 <Button
                     android:id="@+id/boton_repugnancia"
-                    android:layout_width="match_parent"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:backgroundTint="#25AE2E"
                     android:text="Repugnancia" />
             </LinearLayout>
 

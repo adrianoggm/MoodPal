@@ -11,26 +11,26 @@
             android:id="@+id/nav_mapa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/map_icon"
-            android:title="@string/mapa" />
+            android:icon="@drawable/grade_icon"
+            android:title="Emociones" />
         <item
             android:id="@+id/nav_horario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/schedule_icon"
-            android:title="@string/horario" />
+            android:title="Experto" />
         <item
             android:id="@+id/nav_notas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/grade_icon"
-            android:title="@string/notas" />
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Como te sientes" />
         <item
             android:id="@+id/nav_comedor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/fastfood_icon"
-            android:title="@string/comedor" />
+            android:icon="@drawable/text_chat"
+            android:title="Lani" />
     </group>
     <item
         android:layout_width="wrap_content"

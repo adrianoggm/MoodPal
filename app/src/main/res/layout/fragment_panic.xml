@@ -10,18 +10,18 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF">
+        android:background="#E0F1F1">
 
         <LinearLayout
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="30dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,9 +33,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:layout_weight="1"
-                    android:background="#000000"
+                    android:background="#62A8AB"
                     android:includeFontPadding="false"
-                    android:text="MODO PANIC"
+                    android:text="Respira"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
@@ -76,7 +76,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_weight="2"
-                        android:text="Siguiente paso" />
+                        android:backgroundTint="#BAC6CF"
+                        android:text="Siguiente paso"
+                        android:textColor="#000000" />
                 </LinearLayout>
 
             </LinearLayout>

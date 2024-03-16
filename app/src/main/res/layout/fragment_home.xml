@@ -20,7 +20,11 @@
             android:id="@+id/boton_emociones"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="¿Cómo te sientes hoy?" />
+            android:backgroundTint="#FFFDD0"
+            android:text="¿Cómo te sientes hoy?"
+            android:textColor="#000000"
+            app:strokeColor="#000000"
+            app:strokeWidth="0.5dp" />
 
     </LinearLayout>
 
@@ -42,7 +46,11 @@
                 android:id="@+id/botonexperto"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Contacta a un experto" />
+                android:backgroundTint="#FFFDD0"
+                android:text="Contacta a un experto"
+                android:textColor="#000000"
+                app:strokeColor="#000000"
+                app:strokeWidth="0.5dp" />
 
         </LinearLayout>
 
@@ -58,7 +66,11 @@
                 android:id="@+id/boton_entender"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:text="Como entender mis emociones" />
+                android:backgroundTint="#FFFDD0"
+                android:text="Como entender mis emociones"
+                android:textColor="#000000"
+                app:strokeColor="#000000"
+                app:strokeWidth="0.5dp" />
 
         </LinearLayout>
     </LinearLayout>

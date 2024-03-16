@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.bumptech.glide.Glide;
 import com.example.etsiitgo.GusiAssistant;
 import com.example.etsiitgo.R;
 import com.example.etsiitgo.data.ComedorData;
@@ -96,7 +97,7 @@ public class PanicFragment extends InteractableFragment {
         String []titulo = new String[2];
         String []texto= new String[2];
         String []imagenes= new String[2];
-        titulo[0]="Respira profundamente";
+        titulo[0]=" ";
         titulo[1]="Aqui no se que poner";
         texto[0]="Todo va a salir bien";
         texto[1]="Solo un poco más ";
@@ -106,7 +107,12 @@ public class PanicFragment extends InteractableFragment {
         textotitulopanico.setText(titulo[indice_consejo]);
         textopanico.setText(texto[indice_consejo]);
 
-        imagenespanicImageView.setImageResource(Integer.parseInt(imagenes[indice_consejo]));
+        // imagenespanicImageView.setImageResource(Integer.parseInt(imagenes[indice_consejo]));
+        Glide.with(this)
+                .asGif()
+                .load("https://media1.tenor.com/m/q1a1tucKnB0AAAAd/inspire-inhale.gif")
+                .into(imagenespanicImageView);
+
         siguiente_paso.setOnClickListener(new View.OnClickListener(){
         @Override public  void onClick(View v){
             indice_consejo=(indice_consejo+1)%2;
