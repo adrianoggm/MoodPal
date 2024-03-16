@@ -47,6 +47,7 @@ import com.example.etsiitgo.sensores.bluetooth.BluetoothService;
 import com.example.etsiitgo.sensores.bluetooth.BluetoothState;
 import com.example.etsiitgo.sensores.bluetooth.DeviceFoundCallback;
 import com.example.etsiitgo.ui.ComedorFragment;
+import com.example.etsiitgo.ui.EmocionesFragment;
 import com.example.etsiitgo.ui.HomeFragment;
 import com.example.etsiitgo.ui.HorarioFragment;
 import com.example.etsiitgo.ui.InteractableFragment;
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final int LOCATION_PERM_REQUEST = 666;
     private static final String[] locationPerms = new String[] { Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION };
 
-    private static final String GUSI_APP_ID= "48d233093e54127c75ac8b69c3397f10";
+    private static final String GUSI_APP_ID= "3eb52b37a67a3e29cefb651323c0d8e97";
     private static final String DEBUG_TAG = "MainActivity";
     private static final String INIT_FRAGMENT_TAG = "init_fragment_main_activity";
     private DrawerLayout drawerLayout;
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private FragmentContainerView fragmentContainerView;
 
     private PanicFragment panicFragment;
+    private EmocionesFragment emocionesFragment;
     // Test
     private BluetoothScanner scanner;
     private BluetoothService bluetoothService;
@@ -122,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         panicFragment=new PanicFragment();
         //entenderFragment= new EntenderFragment();
         //expertoFragment= new ExpertoFragment();
-        //emocionesFragment= new EmocionesFragment();
+        emocionesFragment= new EmocionesFragment();
 
         horarioFragment.setBluetoothService(bluetoothService);
         notasFragment.setBluetoothService(bluetoothService);
@@ -133,6 +135,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         interactableFragmentViews.add(notasFragment);
         interactableFragmentViews.add(comedorFragment);
         interactableFragmentViews.add(panicFragment);
+        interactableFragmentViews.add(emocionesFragment);
         //MODIFICAR AQUI TAMBIÉN
 
 
@@ -375,7 +378,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = panicFragment;
                 navigationView.setCheckedItem(R.id.nav_qr);
                 break;
-
+            case EMOCIONES:
+                fragment = emocionesFragment;
+                navigationView.setCheckedItem(R.id.nav_qr);
+                break;
+            case EXPERTO:
+                //fragment = expertoFragment;
+                navigationView.setCheckedItem(R.id.nav_qr);
+                break;
         }
 
         if ( fragment == null ) return;

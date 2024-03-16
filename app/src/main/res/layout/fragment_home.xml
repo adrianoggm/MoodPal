@@ -107,7 +107,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:scaleType="fitCenter"
                     android:src="@drawable/km_record_circle"
-                    app:tint="@color/error_background_color"
+
                     tools:ignore="ContentDescription" />
 
                 <TextView
