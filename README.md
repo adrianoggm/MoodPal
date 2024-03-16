@@ -10,3 +10,6 @@ Diversas funcionalidades como el asistente virtual Lani, la posibilidad de conta
 Proyecto presentado para la HackForGood 2024 en la sede de la Universidad de Granada.
 
 Licencia GNU-GPL v3
+
+![Captura aplicacion](https://moodpal.tech/public/experience-1400w.png "Captura de la aplicación")
+![Captura aplicacion](https://moodpal.tech/public/getstarted-800w.png "Captura de la aplicación") 
