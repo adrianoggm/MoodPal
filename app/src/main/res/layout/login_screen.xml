@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_background"
+    android:backgroundTint="#E0F1F1"
     android:gravity="center"
     tools:context=".MainActivity">
 
@@ -25,7 +26,8 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:src="@drawable/login_icon"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/logo" />
 
         <EditText
             android:id="@+id/username_input"
@@ -63,17 +65,18 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
             android:layout_marginTop="10dp"
-            android:background="@color/primary_blue_dark"
+            android:backgroundTint="#EAE7E7"
             android:paddingVertical="15dp"
             android:text="Iniciar sesión"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            tools:text="Iniciar sesión" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayoutIcons"
+        android:id="@+id/BotonPanic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -81,15 +84,6 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:layout_editor_absoluteX="16dp">
-
-        <ImageView
-
-            android:id="@+id/nav_profile_picture"
-            android:layout_width="349dp"
-            android:layout_height="207dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/marca_ugr_no_fondo" />
-    </LinearLayout>
+        tools:layout_editor_absoluteX="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

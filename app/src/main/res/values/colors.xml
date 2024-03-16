@@ -8,11 +8,13 @@
     <color name="secondary_color_dark">#ffe380</color>
 
 <!--    Color mas oscuro para resaltar -->
-<color name="primary_blue_dark">#004592</color>
+<color name="primary_blue_dark">#809FFA</color>
 <!--    Color principal que se usa en la mayria de sitios -->
-    <color name="primary_blue_color">#0077fa</color>
+    <color name="primary_blue_color">#809ffa</color>
 <!--    Este se usa para el boton de gusi -->
     <color name="secondary_blue_color">#98c9ff</color>
 <!--    Este se usa para los items seleccionados del menu lateral -->
     <color name="blue_very_light">#d3e8ff</color>
+
+    <color name="azulito">#C6F8EB</color>
 </resources>

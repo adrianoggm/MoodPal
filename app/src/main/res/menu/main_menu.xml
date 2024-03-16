@@ -8,29 +8,29 @@
             android:icon="@drawable/home_icon"
             android:title="@string/home" />
         <item
-            android:id="@+id/nav_mapa"
+            android:id="@+id/nav_emociones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/map_icon"
-            android:title="@string/mapa" />
+            android:icon="@android:drawable/btn_star"
+            android:title="Emociones" />
         <item
-            android:id="@+id/nav_horario"
+            android:id="@+id/nav_experto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/schedule_icon"
-            android:title="@string/horario" />
+            android:icon="@drawable/km_sent_icon"
+            android:title="Experto" />
         <item
             android:id="@+id/nav_notas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/grade_icon"
-            android:title="@string/notas" />
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Como te sientes" />
         <item
             android:id="@+id/nav_comedor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/fastfood_icon"
-            android:title="@string/comedor" />
+            android:icon="@drawable/text_chat"
+            android:title="Lani" />
     </group>
     <item
         android:layout_width="wrap_content"
@@ -45,15 +45,12 @@
                 android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_qr"
-                    android:icon="@drawable/qr_code"
                     android:title="@string/qr_code" />
                 <item
                     android:id="@+id/nav_login"
-                    android:icon="@drawable/menu_login_icon"
                     android:title="@string/login" />
                 <item
                     android:id="@+id/nav_logout"
-                    android:icon="@drawable/menu_logout_icon"
                     android:title="@string/logout" />
             </group>
         </menu>
