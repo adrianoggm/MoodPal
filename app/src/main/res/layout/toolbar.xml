@@ -6,8 +6,7 @@
     android:background="@color/white"
     android:backgroundTint="#EAE7E7"
     android:elevation="4dp"
-    android:theme="@style/Base.Theme.EtsiitGO"
-    app:navigationIcon="@drawable/menu_icon"
+    android:theme="@style/Base.Theme.moodpal"
     app:titleTextColor="#000000">
 
 </androidx.appcompat.widget.Toolbar>

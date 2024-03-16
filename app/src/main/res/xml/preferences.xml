@@ -4,11 +4,11 @@
 
     <PreferenceCategory
         app:key="gusi_settings"
-        app:title="Gusi">
+        app:title="Lani">
 
         <SwitchPreferenceCompat
             app:key="enable_gusi_voice"
-            app:title="Permitir a Gusi hablar"
+            app:title="Permitir a Lani hablar"
             app:defaultValue="true"/>
 
         <ListPreference
