@@ -2,6 +2,7 @@
 
 ## La app de salud mental que te acompaña en cada nube de emociones, by Mentia
 
+## Proyecto ganador del segundo premio del HackForGood UGR 2024.
 
 
 ### MoodPal incluye todo lo que necesitas para cuidar de tu salud mental
